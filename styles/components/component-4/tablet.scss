@@ -1,0 +1,97 @@
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .component-4 {
+        width:100%;
+        height:1276px;
+        @include flex-center;
+        background-color: $black;
+        position: relative;
+
+    }
+    .saerto-22  {
+        @include to;
+        top: 9%;
+        left: 43%;
+    }
+
+    .who-22 {
+        @include us;
+        left: 41%;
+        top: 6%;
+        font-size: 29px;
+
+        
+        
+    }
+    .who-22 p {
+        color:$simple-white;
+    }
+
+    .saerto-22 i {
+        color:$simple-white;
+    }
+    
+    
+    
+
+    .hexagons {
+        width:768px;
+        height:1017px;
+        @include flex-between;
+        position: absolute;
+        top:15%;
+        flex-direction: column;
+    }
+
+    .hex {
+        width: 293px;
+        height: 282px;
+        position: relative;
+        display: inline-block;
+
+    }
+
+    .black-hex {
+        position: absolute;
+        left: 28%;
+    }
+    .blue-hex {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .black-hex:hover .blue-hex {
+        display: inline;
+    }
+   
+
+    .satauri {
+        color:$cyan;
+        @include font(20px,$family-1,bold);
+        position: absolute;
+        top: 67%;
+        right: 10%;
+
+    }
+
+    .teqsti {
+        color:$simple-white;
+        @include font(14px,$sans,400);
+
+        position: absolute;
+        text-align: center;
+        top: 80%;
+        line-height: 20px;
+    }
+ 
+    .hex i {
+        position: absolute;
+        top: 20%;
+        z-index: 100;
+        left: 43%;
+        font-size: 30px;
+        color: white;
+    }
+
+}
