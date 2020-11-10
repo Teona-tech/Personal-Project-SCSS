@@ -1,0 +1,143 @@
+@media screen and (max-width:1024px) and (min-width:768px)  {
+    .component-3{
+        width:100%;
+        height:1145px;
+        background-color: $simple-white;
+        @include flex-center;
+    }
+    .content-3{
+        width: 768px;
+        height: 700px;
+        @include flex-between;
+        position: relative;
+        margin-bottom:50%;
+    }
+
+    
+    
+    .who {
+        @include us;
+        top: 6.5%;
+        word-spacing: -4px;
+        left: 37%;
+        font-size:29px;
+    }
+
+    span {
+        color:$cyan;
+    }
+
+    .saerto  {
+        @include to;
+        left:43%;
+    }
+
+    .tv {
+        display: none;
+    }
+    .box-image{
+        display: none;
+    }
+    
+    .feat {
+        display: none;
+    }
+    .feat-house {
+        display: none;
+
+    }
+    .new {
+        display: block;
+        background-color:$black;
+        width:718px;
+        height:421px;
+        position: absolute;
+        left:3%;
+        top:23%;
+        background-image: url("https://media.npr.org/assets/img/2015/05/27/istock_000021797874small-ae052da70450a047e74266649594a03895311250-s800-c85.jpg");
+      
+        background-size: cover;
+    }
+    .some-1{
+        @include font(31px,$family-1,600);
+        color: $black;
+        word-spacing: -4px;
+        font-size: 25px;
+    }
+    .dumb-text-1{
+        color:$ragacnairi-nacrisferi;
+    
+        @include font(13px,$sans,lighter);
+        margin-top: 5.4%;
+        line-height: 23px;
+    }
+
+    .some {
+        display: none;
+    }
+    .dumb-text {
+        display: none;
+    }
+
+    .contenta {
+        width: 718px;
+        height: 1000px;
+        position: absolute;
+        left:3%;
+        top: 87%;
+    }
+
+    .txt p {
+        color:$ragacnairi-nacrisferi;
+        @include font (13px,$sans,lighter);
+        line-height:20px;
+    }
+
+    .circ {
+        width: 16px;
+        margin-right:2%;
+        margin-bottom:3%;
+        
+    }
+
+    .txt {
+        @include flex-between;
+        width:516px;
+        height:36px;
+    }
+
+
+    .bttn {
+        @include flex-center;
+        background-color: $cyan;
+        border: none;
+        width: 138px;
+        height: 42px;
+        color:$simple-white;
+        @include font (13px,$family-1,bold);
+        margin-top: 6.2%;
+    }
+
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        justify-content: space-between;
+        height: 170px;
+
+        margin-top: 5.5%;
+    }
+
+    .bttna {
+        display: none;
+
+    }
+    .mom {
+        display: none;
+    }
+
+    .contenta-1 {
+        display: none;
+    }
+}

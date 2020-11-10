@@ -1,0 +1,164 @@
+@media screen and(max-width:767px) and (min-width:320px) {
+    .component-3{
+        width:100%;
+        height:800px;
+        background-color: $simple-white;
+        @include flex-center;
+    }
+    .content-3{
+        width: 280px;
+        @include flex-between;
+        position: relative;
+        // align-items: center;
+
+        height: 800px;
+
+    }
+
+    
+    
+    .who {
+        @include us;
+        top: 5%;
+        word-spacing: -4px;
+        left: 18%;
+        font-size:27px;
+        width:187px;
+
+
+
+
+    }
+
+    span {
+        color:$cyan;
+    }
+
+    .saerto  {
+        @include to;
+        left:30%;
+        top: 10%;
+    }
+
+    .tv {
+        display: none;
+    }
+    .box-image{
+        display: none;
+    }
+    
+    .feat {
+        display: none;
+    }
+    .feat-house {
+        display: none;
+
+    }
+    .new {
+        display: block;
+        background-color:$black;
+        width:281px;
+        height:207px;
+        position: absolute;
+        top:16%;
+        background-image: url("https://media.npr.org/assets/img/2015/05/27/istock_000021797874small-ae052da70450a047e74266649594a03895311250-s800-c85.jpg");
+      
+        background-size: cover;
+    }
+    .some-1{
+        display: none;
+    }
+    .dumb-text-1{
+        color:$ragacnairi-nacrisferi;
+    
+        @include font(13px,$sans,lighter);
+        line-height: 23px;
+        margin-top: 3%;
+    }
+
+    .some {
+        display: none;
+    }
+    .dumb-text {
+        display: none;
+    }
+
+    .some-2 {
+        @include font(16px,$family-1,600);
+        color: $black;
+    }
+    .contenta-1 {
+        position:absolute;
+        top: 44.3%;
+    }
+
+    
+
+
+    .circ {
+       display: none;
+        
+    }
+
+    .txt {
+        display: none;
+    }
+
+    
+
+    .bttna {
+        @include flex-center;
+        background-color: $cyan;
+        border: none;
+        width: 138px;
+        height: 42px;
+        color:$simple-white;
+        @include font (13px,$family-1,bold);
+        position: absolute;
+        top: 89.5%;
+    }
+
+
+
+   .line {display: none;}
+
+   .contenta {display: none;}
+
+    .mom {
+        width: 290px;
+        height: 196px;
+        @include flex-between;
+        margin-top:12%;
+    }
+   .box-1 {
+    width: 28px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 14%;
+   }
+   .wre {
+       width:16px;
+
+   }
+
+   .boxa {
+       display: flex;
+       justify-content: space-between;
+       flex-direction:column;
+       width:294px;
+       height:200px;
+       height: 170px;
+        margin-bottom: 10%;
+        margin-left: 2%;
+   }
+
+   .boxa p {
+    color:$ragacnairi-nacrisferi;
+    @include font (13px,$sans,lighter);
+    line-height:20px;
+   }
+    
+
+}

@@ -1,0 +1,73 @@
+@mixin feature {
+    width: 252px;
+    height: 67px;
+    position: relative;
+    div {
+        background-color:$feature-color;
+        @include flex-center;
+        border-radius: 64px;
+        width: 64px;
+        height: 64px;
+        position: absolute;
+    }
+    h6 {
+        color:$header-color;
+        @include font (19px,$family-1,bold);
+        position: absolute;
+        top: 1%;
+        left: 36%;
+        letter-spacing: -1px;
+    }
+    p {
+        color:$grey;
+        width: 180px;
+        line-height:24px;
+        @include font (13px,$sans,lighter);
+        position: absolute;
+        left: 36%;
+        top: 43%;
+
+
+    }
+    i {
+        color:$simple-white;
+        font-size: 30px;
+    }
+}
+
+
+@mixin us {
+    @include font(31px, $family-1,600);
+    color:$header-color;
+    width: 187px;
+    width: 200px;
+    position: absolute;
+    top: 5%;
+    word-spacing: -4px;
+    left: 41.4%;
+ 
+
+    
+}
+
+@mixin to {
+    width: 110px;
+    position: absolute;
+    top: 13%;
+    left: 45%;
+    @include flex-between;
+
+    div {
+        color:$simple-white;
+        width:38px;
+        height:2px;
+        background-color: $wvrili-xazi;
+        display: inline-block;
+    }
+   
+    i {
+        font-size:15px;
+    }
+   
+
+}

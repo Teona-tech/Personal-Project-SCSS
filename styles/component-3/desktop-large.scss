@@ -1,0 +1,104 @@
+$family-1:'Raleway', sans-serif;
+$sans:'Open Sans', sans-serif;
+@media screen and (max-width:1600px) and (min-width:1201px) {
+    .component-3{
+        width:100%;
+        height:820px;
+        background-color: $simple-white;
+        @include flex-center;
+    }
+    .content-3{
+        width: 1164px;
+        height:820px;
+        @include flex-between;
+        position: relative;
+    }
+    .box-image{
+        width: 510px;
+        height:414px;
+        position: absolute;
+        top: 22%;
+    }
+    .some {
+        position: absolute;
+        @include font(31px,$family-1,600);
+        color: $black;
+        top: 33%;
+        left: 50.5%;
+        
+        word-spacing: -4px;
+    }
+    .dumb-text {
+        position: absolute;
+        top: 40%;
+        left:51%;
+        color:$grey;
+        width: 554px;
+        line-height:27px;
+        @include font(14px,$sans,lighter);
+    }
+    .feat {
+        @include feature;
+        display: inline-block;
+        margin-right: 7%;
+        margin-bottom: 8%;
+    }
+    .feat-house {
+        position: absolute;
+        width: 600px;
+        left: 50.8%;
+        top: 55%;
+    }
+
+    .who {
+        @include us;
+
+        top: 14%;
+        word-spacing: -4px;
+        left: 40.5%;
+    }
+
+    span {
+        color:$cyan;
+    }
+
+    .saerto  {
+        @include to;
+        top: 20%;
+        left: 45%;
+    }
+    .tv {
+        background-color:gray;
+        position: absolute;
+        z-index: 2;
+       
+        width: 476px;
+        height: 268px;
+        left: 1.5%;
+        top: 35%;
+        background-image: url("https://media.npr.org/assets/img/2015/05/27/istock_000021797874small-ae052da70450a047e74266649594a03895311250-s800-c85.jpg");
+      
+        background-size: cover;
+    }
+    .new {
+        display: none;
+    }
+    .bttn{
+        display: none;
+    }
+    .contenta {
+        display: none;
+    }
+
+    .bttna {
+        display: none;
+
+    }
+    .mom {
+        display: none;
+    }
+
+    .contenta-1 {
+        display: none;
+    }
+}
