@@ -1,0 +1,49 @@
+@media screen and (min-width:1601px) {
+    .component-7{
+        width: 100%;
+        height:299px;
+        background-color:$dark;
+        @include flex-center;
+    }
+
+    .agar-shemidzlia {
+        width: 292px;
+        height:199px;
+        @include flex-between;
+        flex-direction: column;
+    }
+
+    .logos {
+        @include flex-between;
+        flex-direction: row;
+     
+        width:300px;
+    }
+   
+
+    .logos div {
+        width:40px;
+        height:40px;
+        border-radius: 1px;
+        background-color: $boxa;
+        @include flex-center;
+    }
+
+    .logos i {
+        font-size: 15px;
+        color:$simple-white;
+    }
+
+
+    .agar-shemidzlia p {
+        color:$foot-text;
+        @include font(11px,$family-1,400);
+
+
+    }
+
+    .logos div:hover{
+        background-color: #47619E;
+    }
+}
+
