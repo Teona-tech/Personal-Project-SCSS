@@ -1,0 +1,52 @@
+$size:14px;
+$family:'Montserrat', sans-serif;
+$weight:400;
+
+@media screen and (max-width:1600px) and (min-width:1201px) {
+    .component-1{
+        color:$simple-white;
+        background-color: $black;
+        width:100%;
+        @include flex-center;
+        height:106px;
+    }
+    .navbar {
+        @include flex-between;
+        @include font($size,$family,$weight);
+        color:$simple-white;
+        width: 740px;
+        margin-bottom: 0.2%;
+        
+    }
+    
+    .nav-bar{
+        color:$simple-white;
+    }
+    
+    
+    .logo {
+        width: 117px;
+
+    }
+    
+    .content {
+        @include flex-between;
+        width:80%;
+    }
+    
+    .burger-nav {
+        display:none;
+    }
+
+}
+
+
+    
+    
+    
+    
+    
+
+
+
+

@@ -1,0 +1,67 @@
+$size:14px;
+$family:'Montserrat', sans-serif;
+$weight:400;
+
+
+@media screen and(max-width:767px) and (min-width:320px)  {
+    .component-1{
+        color:$simple-white;
+        background-color: $black;
+        width:100%;
+        @include flex-center;
+        height: 70px;
+        position: relative;
+    }
+    .navbar {
+        @include flex-between;
+        @include font($size,$family,$weight);
+        color:$simple-white;
+        width: 740px;
+        margin-bottom: 0.2%;
+        display:none;
+        
+    }
+    
+    .nav-bar{
+        color:$simple-white;
+    }
+    
+    
+    .logo {
+        width: 90px;
+        margin-left: 3%;
+
+    }
+    
+    .content {
+        @include flex-between;
+        width:90%;
+
+        margin-right: 4%;
+    }
+    
+    .burger-nav {
+        display:block;
+        @include burger;
+        position: absolute;
+        
+        top: 25%;
+        left: 79%;
+        width: 46px;
+        height: 29px;
+    }
+    .burger-nav > div {
+        width: 40px;
+        height: 27px;
+        @include flex-center;
+
+    }
+
+    .burger-nav > div > i {
+        color:$simple-white;
+        font-size: 20px;
+    }
+
+}
+
+

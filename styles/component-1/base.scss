@@ -1,0 +1,31 @@
+
+@mixin flex-center{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+@mixin flex-between {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+@mixin font ($size,$family,$weight){
+    font-size: $size;
+    font-family:$family;
+    font-weight: $weight;
+}
+
+@mixin burger {
+    background-color:$cyan;
+    @include flex-center;
+
+        div {
+            border:1px solid $simple-white;
+            color:$simple-white;
+   
+        }
+        
+}
