@@ -1,0 +1,97 @@
+@media screen and (max-width:1200px) and (min-width:1025px) {
+    .component-6{
+        width:100%;
+        height: 897px;
+        position: relative;
+        background-color: $simple-white;
+    }
+
+    .who-33 {
+       @include us;
+       top: 10.5%;
+        word-spacing: -4px;
+        left: 46%;
+    }
+    .saerto-33{
+       @include to;
+       top: 15.5%;
+       left: 47%;
+    }
+
+    .logo-box {
+        width:763px;
+        height:157px;
+        @include flex-between;
+        top: 24%;
+        position: absolute;
+        left: 20%;
+    }
+
+
+    .logo-box div {
+        width: 142px;
+        @include flex-between;
+        flex-direction:column;
+        height: 100px;
+    }
+
+    .logo-box i {
+        font-size:40px;
+        color:$cyan;
+        
+    }
+
+    .logo-box p{
+        @include font (13,$family-1,400);
+        text-align:center;
+        line-height: 20px;
+    }
+
+
+    .bttnaa {
+        @include flex-center;
+        background-color: $cyan;
+        border: none;
+        width: 158px;
+        height: 42px;
+        color:$simple-white;
+        @include font (13px,$family-1,bold);
+        margin-top: 2%;
+    
+    }
+
+
+    .name {
+        height:47px;
+        width: 450px;
+        
+    }
+
+    .email {
+        width: 452px;
+        height: 47px;
+        top: 47%;
+       
+
+    }
+
+    .text-99 {
+        width: 934px;
+        height: 47px;
+        margin-top: 1%;
+       
+    }
+
+    .text-2{
+        width: 935px;
+        height: 172px;
+        margin-top: 1%;
+    }
+
+
+    form {
+        position: absolute;
+        top: 48%;
+        left: 16%;
+    }
+}

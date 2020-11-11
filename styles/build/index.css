@@ -2336,6 +2336,498 @@ table {
   }
 }
 @media screen and (max-width: 1600px) and (min-width: 1201px) {
+  .component-6 {
+    width: 100%;
+    height: 897px;
+    position: relative;
+    background-color: #fff;
+  }
+
+  .who-33 {
+    font-size: 31px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    color: #323232;
+    width: 187px;
+    width: 200px;
+    position: absolute;
+    top: 5%;
+    word-spacing: -4px;
+    left: 41.4%;
+    top: 10.5%;
+    word-spacing: -4px;
+    left: 46%;
+  }
+
+  .saerto-33 {
+    width: 110px;
+    position: absolute;
+    top: 13%;
+    left: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 15.5%;
+    left: 47%;
+  }
+  .saerto-33 div {
+    color: #fff;
+    width: 38px;
+    height: 2px;
+    background-color: #D3D3D3;
+    display: inline-block;
+  }
+  .saerto-33 i {
+    font-size: 15px;
+  }
+
+  .logo-box {
+    width: 763px;
+    height: 157px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 24%;
+    position: absolute;
+    left: 20%;
+  }
+
+  .logo-box div {
+    width: 142px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+  }
+
+  .logo-box i {
+    font-size: 40px;
+    color: #3AB6B2;
+  }
+
+  .logo-box p {
+    font-size: 13;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .bttnaa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3AB6B2;
+    border: none;
+    width: 158px;
+    height: 42px;
+    color: #fff;
+    font-size: 13px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    margin-top: 2%;
+  }
+
+  .name {
+    height: 47px;
+    width: 450px;
+  }
+
+  .email {
+    width: 452px;
+    height: 47px;
+    top: 47%;
+  }
+
+  .text-99 {
+    width: 934px;
+    height: 47px;
+    margin-top: 1%;
+  }
+
+  .text-2 {
+    width: 935px;
+    height: 172px;
+    margin-top: 1%;
+  }
+
+  form {
+    position: absolute;
+    top: 48%;
+    left: 16%;
+  }
+}
+@media screen and (min-width: 1601px) {
+  .component-6 {
+    width: 100%;
+    height: 897px;
+    position: relative;
+    background-color: #fff;
+  }
+
+  .who-33 {
+    font-size: 31px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    color: #323232;
+    width: 187px;
+    width: 200px;
+    position: absolute;
+    top: 5%;
+    word-spacing: -4px;
+    left: 41.4%;
+    top: 10.5%;
+    word-spacing: -4px;
+    left: 46%;
+  }
+
+  .saerto-33 {
+    width: 110px;
+    position: absolute;
+    top: 13%;
+    left: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 15.5%;
+    left: 47%;
+  }
+  .saerto-33 div {
+    color: #fff;
+    width: 38px;
+    height: 2px;
+    background-color: #D3D3D3;
+    display: inline-block;
+  }
+  .saerto-33 i {
+    font-size: 15px;
+  }
+
+  .logo-box {
+    width: 763px;
+    height: 157px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 24%;
+    position: absolute;
+    left: 29.5%;
+  }
+
+  .logo-box div {
+    width: 142px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+  }
+
+  .logo-box i {
+    font-size: 40px;
+    color: #3AB6B2;
+  }
+
+  .logo-box p {
+    font-size: 13;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .bttnaa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3AB6B2;
+    border: none;
+    width: 158px;
+    height: 42px;
+    color: #fff;
+    font-size: 13px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    margin-top: 2%;
+  }
+
+  .name {
+    height: 47px;
+    width: 450px;
+  }
+
+  .email {
+    width: 452px;
+    height: 47px;
+    top: 47%;
+  }
+
+  .text-99 {
+    width: 934px;
+    height: 47px;
+    margin-top: 1%;
+  }
+
+  .text-2 {
+    width: 935px;
+    height: 172px;
+    margin-top: 1%;
+  }
+
+  form {
+    position: absolute;
+    top: 48%;
+    left: 25%;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+  .component-6 {
+    width: 100%;
+    height: 897px;
+    position: relative;
+    background-color: #fff;
+  }
+
+  .who-33 {
+    font-size: 31px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    color: #323232;
+    width: 187px;
+    width: 200px;
+    position: absolute;
+    top: 5%;
+    word-spacing: -4px;
+    left: 41.4%;
+    top: 10.5%;
+    word-spacing: -4px;
+    left: 46%;
+  }
+
+  .saerto-33 {
+    width: 110px;
+    position: absolute;
+    top: 13%;
+    left: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 15.5%;
+    left: 47%;
+  }
+  .saerto-33 div {
+    color: #fff;
+    width: 38px;
+    height: 2px;
+    background-color: #D3D3D3;
+    display: inline-block;
+  }
+  .saerto-33 i {
+    font-size: 15px;
+  }
+
+  .logo-box {
+    width: 763px;
+    height: 157px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 24%;
+    position: absolute;
+    left: 20%;
+  }
+
+  .logo-box div {
+    width: 142px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+  }
+
+  .logo-box i {
+    font-size: 40px;
+    color: #3AB6B2;
+  }
+
+  .logo-box p {
+    font-size: 13;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .bttnaa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3AB6B2;
+    border: none;
+    width: 158px;
+    height: 42px;
+    color: #fff;
+    font-size: 13px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    margin-top: 2%;
+  }
+
+  .name {
+    height: 47px;
+    width: 450px;
+  }
+
+  .email {
+    width: 452px;
+    height: 47px;
+    top: 47%;
+  }
+
+  .text-99 {
+    width: 934px;
+    height: 47px;
+    margin-top: 1%;
+  }
+
+  .text-2 {
+    width: 935px;
+    height: 172px;
+    margin-top: 1%;
+  }
+
+  form {
+    position: absolute;
+    top: 48%;
+    left: 16%;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .component-6 {
+    width: 100%;
+    height: 897px;
+    position: relative;
+    background-color: #fff;
+  }
+
+  .who-33 {
+    font-size: 31px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    color: #323232;
+    width: 187px;
+    width: 200px;
+    position: absolute;
+    top: 5%;
+    word-spacing: -4px;
+    left: 41.4%;
+    top: 10.5%;
+    word-spacing: -4px;
+    left: 46%;
+  }
+
+  .saerto-33 {
+    width: 110px;
+    position: absolute;
+    top: 13%;
+    left: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 15.5%;
+    left: 47%;
+  }
+  .saerto-33 div {
+    color: #fff;
+    width: 38px;
+    height: 2px;
+    background-color: #D3D3D3;
+    display: inline-block;
+  }
+  .saerto-33 i {
+    font-size: 15px;
+  }
+
+  .logo-box {
+    width: 763px;
+    height: 157px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 24%;
+    position: absolute;
+    left: 20%;
+  }
+
+  .logo-box div {
+    width: 142px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+  }
+
+  .logo-box i {
+    font-size: 40px;
+    color: #3AB6B2;
+  }
+
+  .logo-box p {
+    font-size: 13;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .bttnaa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3AB6B2;
+    border: none;
+    width: 158px;
+    height: 42px;
+    color: #fff;
+    font-size: 13px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    margin-top: 2%;
+  }
+
+  .name {
+    height: 47px;
+    width: 353px;
+  }
+
+  .email {
+    width: 353px;
+    height: 47px;
+    top: 47%;
+  }
+
+  .text-99 {
+    width: 719px;
+    height: 47px;
+    margin-top: 1%;
+  }
+
+  .text-2 {
+    width: 719px;
+    height: 172px;
+    margin-top: 1%;
+  }
+
+  form {
+    position: absolute;
+    top: 48%;
+    left: 16%;
+  }
+}
+@media screen and (max-width: 1600px) and (min-width: 1201px) {
   .component-7 {
     width: 100%;
     height: 299px;
